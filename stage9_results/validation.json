@@ -1,0 +1,345 @@
+{
+  "diameter_m": 0.2,
+  "on_axis_frequency_hz": 720,
+  "directivity_frequency_hz": 2800,
+  "distances_m": [
+    0,
+    0.03,
+    0.12,
+    0.35,
+    0.8
+  ],
+  "padding_sweep": [
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        42,
+        42
+      ],
+      "padding": 2,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.48808984880405376,
+        0.6309283020949926,
+        1.1582911595530359,
+        1.5888166120757687,
+        2.5489638303487268
+      ],
+      "far_field_max_complex_error_over_broadside": 0.06423804747045293
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        126,
+        126
+      ],
+      "padding": 6,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.1913591119947754,
+        0.24861840545691435,
+        0.49666643714919234,
+        1.3253634873625741,
+        3.712780474339456
+      ],
+      "far_field_max_complex_error_over_broadside": 0.00820907733708147
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        252,
+        252
+      ],
+      "padding": 12,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.1719874590561022,
+        0.22328663082724573,
+        0.4350389685531391,
+        0.8982145114008204,
+        0.7403272977774146
+      ],
+      "far_field_max_complex_error_over_broadside": 0.0021700322202182205
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        504,
+        504
+      ],
+      "padding": 24,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.03063055916494287,
+        0.039803754356318145,
+        0.0790964086803372,
+        0.2026751541440856,
+        0.6693855026480111
+      ],
+      "far_field_max_complex_error_over_broadside": 0.0013524173633471489
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        756,
+        756
+      ],
+      "padding": 36,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.021885491087572775,
+        0.02849269991565871,
+        0.05673410838678379,
+        0.13994960453241098,
+        0.2667888475026395
+      ],
+      "far_field_max_complex_error_over_broadside": 0.0011785771544514819
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        840,
+        840
+      ],
+      "padding": 40,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.09292968770825759,
+        0.12081229443736963,
+        0.2403818138831681,
+        0.605176884615581,
+        1.2286023758306535
+      ],
+      "far_field_max_complex_error_over_broadside": 0.001157301480817186
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        1176,
+        1176
+      ],
+      "padding": 56,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.01747262117380331,
+        0.022571379432338105,
+        0.04407998858900607,
+        0.10669489147439314,
+        0.18103213176937163
+      ],
+      "far_field_max_complex_error_over_broadside": 0.0011139283521480034
+    }
+  ],
+  "spacing_sweep": [
+    {
+      "dx_m": 0.022222222222222227,
+      "fft_shape": [
+        108,
+        108
+      ],
+      "padding": 12,
+      "subsamples": 8,
+      "relative_area_error": 0.0028255108748529434,
+      "on_axis_relative_error": [
+        0.16814864038417157,
+        0.2194821206970142,
+        0.4330832420757791,
+        0.8954273053151977,
+        0.7360251176838623
+      ],
+      "far_field_max_complex_error_over_broadside": 0.007324515208958063
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        252,
+        252
+      ],
+      "padding": 12,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.1719874590561022,
+        0.22328663082724573,
+        0.4350389685531391,
+        0.8982145114008204,
+        0.7403272977774146
+      ],
+      "far_field_max_complex_error_over_broadside": 0.0021700322202182205
+    },
+    {
+      "dx_m": 0.004878048780487806,
+      "fft_shape": [
+        492,
+        492
+      ],
+      "padding": 12,
+      "subsamples": 8,
+      "relative_area_error": 9.141218304042908e-05,
+      "on_axis_relative_error": [
+        0.17241904397952598,
+        0.22373798157955824,
+        0.43543266770256,
+        0.8983236838722225,
+        0.7404859354332428
+      ],
+      "far_field_max_complex_error_over_broadside": 0.0020406054966902415
+    }
+  ],
+  "boundary_sweep": [
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        252,
+        252
+      ],
+      "padding": 12,
+      "subsamples": 1,
+      "relative_area_error": 0.007620410686104195,
+      "on_axis_relative_error": [
+        0.17494998848152316,
+        0.22670750951407556,
+        0.435596207825934,
+        0.9032433018757449,
+        0.7472703527594845
+      ],
+      "far_field_max_complex_error_over_broadside": 0.010498550473640195
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        252,
+        252
+      ],
+      "padding": 12,
+      "subsamples": 4,
+      "relative_area_error": 0.0004024994347711086,
+      "on_axis_relative_error": [
+        0.1720597724582178,
+        0.223371929558717,
+        0.4350483918860701,
+        0.8983178379700957,
+        0.7405352737168305
+      ],
+      "far_field_max_complex_error_over_broadside": 0.00179332499554652
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        252,
+        252
+      ],
+      "padding": 12,
+      "subsamples": 8,
+      "relative_area_error": 0.0002220516534878758,
+      "on_axis_relative_error": [
+        0.1719874590561022,
+        0.22328663082724573,
+        0.4350389685531391,
+        0.8982145114008204,
+        0.7403272977774146
+      ],
+      "far_field_max_complex_error_over_broadside": 0.0021700322202182205
+    },
+    {
+      "dx_m": 0.009523809523809526,
+      "fft_shape": [
+        252,
+        252
+      ],
+      "padding": 12,
+      "subsamples": 16,
+      "relative_area_error": 0.00035738748945046694,
+      "on_axis_relative_error": [
+        0.17202492644950765,
+        0.22332905158464947,
+        0.4350304002273455,
+        0.8982887308042666,
+        0.7404616426477402
+      ],
+      "far_field_max_complex_error_over_broadside": 0.001968523629781754
+    }
+  ],
+  "evanescent_omitted": {
+    "dx_m": 0.009523809523809526,
+    "fft_shape": [
+      1176,
+      1176
+    ],
+    "padding": 56,
+    "subsamples": 8,
+    "relative_area_error": 0.0002220516534878758,
+    "on_axis_relative_error": [
+      0.7867704739839345,
+      0.7901148289777102,
+      0.7920723272366024,
+      0.7825968383490975,
+      0.7110857483797355
+    ],
+    "far_field_max_complex_error_over_broadside": 0.0011139283521480034
+  },
+  "axial_far_field_limit": {
+    "distance_m": [
+      0.12,
+      0.35,
+      0.8,
+      4.0
+    ],
+    "relative_error": [
+      0.3055401172103429,
+      0.09655780677934993,
+      0.0417119968203568,
+      0.008317046876534442
+    ]
+  },
+  "spectral_modes": {
+    "exact_grazing_peak": 0.0,
+    "near_grazing_gain_over_rho_c": 1414.2138274550462,
+    "evanescent_distances_m": [
+      0,
+      0.1,
+      0.3
+    ],
+    "evanescent_ratios": [
+      1.0,
+      0.11343114965632213,
+      0.001459476146750015
+    ],
+    "analytical_ratios": [
+      1.0,
+      0.11343114965632212,
+      0.001459476146750015
+    ],
+    "filtered_peak": 0.0
+  },
+  "performance": {
+    "fft_shape": [
+      800,
+      800
+    ],
+    "repeat": 7,
+    "rasterize_subsamples_4": {
+      "median_ms": 1.3623209961224347,
+      "peak_traced_mib": 0.6356353759765625
+    },
+    "prepare_velocity_fft": {
+      "median_ms": 5.14456800010521,
+      "peak_traced_mib": 9.76654052734375
+    },
+    "pressure_four_planes": {
+      "median_ms": 76.46275700244587,
+      "peak_traced_mib": 52.22511291503906
+    },
+    "directivity_721_directions": {
+      "median_ms": 0.18848999752663076,
+      "peak_traced_mib": 0.13164615631103516
+    }
+  }
+}

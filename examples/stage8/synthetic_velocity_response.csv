@@ -1,0 +1,17 @@
+# schema=velocity_response_v1
+# reference_input_value=1
+# reference_input_unit=normalized
+# calibration=synthetic
+# magnitude_unit=linear
+# phase_unit=deg
+# time_convention=exp(-i omega t)
+# quantity=relative_diaphragm_velocity
+# calibration_id=synthetic-lowpass-800Hz
+# calibration_note=Analytical first-order velocity scale with unity DC gain and an 800 Hz corner
+# phase_wrapping=unwrapped
+frequency_hz,magnitude,phase
+250,0.95447997803503,17.3540246362613
+500,0.847998304005088,32.0053832080835
+800,0.707106781186548,45
+1000,0.624695047554424,51.3401917459099
+1500,0.470588235294118,61.927513064147

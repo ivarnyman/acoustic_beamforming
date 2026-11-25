@@ -1,0 +1,44 @@
+{
+  "azimuth_deg": 0.0,
+  "pressure_reference_model_units": 216.14425257273345,
+  "directivity_reference_model_units_m": 146.36159999999998,
+  "relative_level_display_limits_db": [
+    -40.0,
+    0.0
+  ],
+  "cases": [
+    {
+      "configuration": "examples/stage9/broadside.json",
+      "label": "broadside",
+      "frequency_hz": 1800,
+      "distance_m": 0.4,
+      "peak_angle_deg": 0.0,
+      "beamwidth_deg": 14.169216263817207,
+      "sidelobe_level_db": -13.025308937335517,
+      "peak_pressure_level_db": -1.4694979796872953,
+      "peak_directivity_level_db": 0.0
+    },
+    {
+      "configuration": "examples/stage9/steered.json",
+      "label": "steered",
+      "frequency_hz": 1800,
+      "distance_m": 0.4,
+      "peak_angle_deg": 25.0,
+      "beamwidth_deg": 15.671058224541056,
+      "sidelobe_level_db": -12.628282624197487,
+      "peak_pressure_level_db": -1.29622025721023,
+      "peak_directivity_level_db": -0.2034307901352772
+    },
+    {
+      "configuration": "examples/stage9/steered_tapered.json",
+      "label": "steered_tapered",
+      "frequency_hz": 1800,
+      "distance_m": 0.4,
+      "peak_angle_deg": 25.0,
+      "beamwidth_deg": 20.467418249977968,
+      "sidelobe_level_db": -25.092890288192564,
+      "peak_pressure_level_db": 0.0,
+      "peak_directivity_level_db": -1.0417646928666358
+    }
+  ]
+}
